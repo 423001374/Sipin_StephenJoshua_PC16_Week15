@@ -1,4 +1,4 @@
- import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
 class FeedScreen extends StatelessWidget {
   const FeedScreen({super.key});
@@ -232,10 +232,7 @@ class FeedScreen extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(height: 12),
-                  const Text(
-                    'EH-HH-ENDOT!',
-                    style: TextStyle(fontSize: 15),
-                  ),
+                  const Text('EH-HH-ENDOT!', style: TextStyle(fontSize: 15)),
                   const SizedBox(height: 12),
                   ClipRRect(
                     borderRadius: BorderRadius.circular(12),
@@ -253,21 +250,33 @@ class FeedScreen extends StatelessWidget {
                     children: [
                       Row(
                         children: [
-                          Icon(Icons.thumb_up_alt_outlined, size: 18, color: Colors.grey),
+                          Icon(
+                            Icons.thumb_up_alt_outlined,
+                            size: 18,
+                            color: Colors.grey,
+                          ),
                           SizedBox(width: 6),
                           Text('Like'),
                         ],
                       ),
                       Row(
                         children: [
-                          Icon(Icons.comment_outlined, size: 18, color: Colors.grey),
+                          Icon(
+                            Icons.comment_outlined,
+                            size: 18,
+                            color: Colors.grey,
+                          ),
                           SizedBox(width: 6),
                           Text('Comment'),
                         ],
                       ),
                       Row(
                         children: [
-                          Icon(Icons.share_outlined, size: 18, color: Colors.grey),
+                          Icon(
+                            Icons.share_outlined,
+                            size: 18,
+                            color: Colors.grey,
+                          ),
                           SizedBox(width: 6),
                           Text('Share'),
                         ],

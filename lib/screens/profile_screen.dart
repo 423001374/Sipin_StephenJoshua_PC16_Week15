@@ -10,10 +10,7 @@ class ProfileScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Jak-Jak Mulawin'),
-        actions: const [
-          Icon(Icons.search),
-          SizedBox(width: 16),
-        ],
+        actions: const [Icon(Icons.search), SizedBox(width: 16)],
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -63,10 +60,7 @@ class ProfileScreen extends StatelessWidget {
                 children: [
                   const Text(
                     'Jak-Jak Mulawin',
-                    style: TextStyle(
-                      fontSize: 22,
-                      fontWeight: FontWeight.bold,
-                    ),
+                    style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
                   ),
                   const SizedBox(height: 4),
                   const Text(
@@ -142,9 +136,7 @@ class ProfileScreen extends StatelessWidget {
                     children: [
                       Icon(Icons.location_on, color: Colors.grey, size: 20),
                       SizedBox(width: 10),
-                      Expanded(
-                        child: Text('Lives in Manila, Philippines'),
-                      ),
+                      Expanded(child: Text('Lives in Manila, Philippines')),
                     ],
                   ),
                 ],
